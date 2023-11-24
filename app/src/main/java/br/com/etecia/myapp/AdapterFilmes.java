@@ -1,3 +1,5 @@
+package br.com.etecia.myapp;
+
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -5,7 +7,6 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class AdapterFilmes extends RecyclerView.Adapter<AdapterFilmes.ViewHolder> {
-
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
